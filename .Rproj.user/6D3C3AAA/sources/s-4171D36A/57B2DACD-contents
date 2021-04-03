@@ -1,13 +1,9 @@
 if (!require('maps')) install.packages('maps'); library('maps')
-if (!require('sf')) install.packages('sf'); library('sf')
 if (!require('rnaturalearth')) install.packages('rnaturalearth'); library('rnaturalearth')
 if (!require('here')) install.packages('here'): library('here')
-if (!require('rnaturalearthdata')) install.packages('rnaturalearthdata'); library('rnaturalearthdata')
 if (!require('ggplot2')) install.packages('ggplot2'); library('ggplot2')
 if (!require('ggspatial')) install.packages('ggspatial'); library('ggspatial')
-if (!require('rgeos')) install.packages('rgeos'); library('rgeos')
 if (!require('cowplot')) install.packages('cowplot'); library('cowplot')
-if (!require('here')) install.packages('here'); library('here')
 
 
 # Load world data

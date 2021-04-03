@@ -3,7 +3,7 @@
     "path": "~/GitHub/30-day-chart-challenge/day1.R",
     "project_path": "day1.R",
     "type": "r_source",
-    "hash": "2288327876",
+    "hash": "1564039271",
     "contents": "",
     "dirty": false,
     "created": 1617484242524.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "45,0",
-        "scrollLine": "14"
+        "cursorPosition": "6,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1617484780,
+    "lastKnownWriteTime": 1617485344,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1617484780877,
+    "last_content_update": 1617485344507,
     "read_only": false,
     "read_only_alternatives": []
 }
