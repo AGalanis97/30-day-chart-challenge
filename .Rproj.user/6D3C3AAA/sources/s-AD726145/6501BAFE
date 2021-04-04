@@ -1,0 +1,25 @@
+{
+    "id": "6501BAFE",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1617529209241.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "58d8b0ffff8c4cdea0a406aeb037a894",
+        "name": "plot",
+        "title": "plot"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1617505281,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617529209241,
+    "read_only": false,
+    "read_only_alternatives": []
+}
