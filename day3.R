@@ -50,6 +50,6 @@ timeline_plot<-timeline_plot+geom_text(data=sequencing, aes(x=Year,y=-0.1,label=
 # Show text for each milestone
 plot <-timeline_plot+geom_text(aes(y=text_position,label=stringr::str_wrap(Milestone, width = 18)),size=5) + theme(legend.position = "none") + labs(title="Day 3: Historical. \nDevelopments in DNA sequencing.", subtitle = "#30DayChartChallenge | @agalanis97", caption = "Data: Heather and Chain (2016)")
 
-ggsave(plot = plot, filename = "day3.pdf", width = 10, height = 10)
+ggsave(plot = plot, filename = "day3.pdf")
 
 
