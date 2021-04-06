@@ -1,0 +1,32 @@
+{
+    "id": "02106B66",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1617636778514.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "expression": "experiment_bee",
+        "caption": "experiment_bee",
+        "totalObservations": "113",
+        "displayedObservations": "113",
+        "variables": "10",
+        "cacheKey": "6FED4C7C",
+        "object": "experiment_bee",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=experiment_bee&cache_key=6FED4C7C&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2915644678586261861,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617636778514,
+    "read_only": false,
+    "read_only_alternatives": []
+}
