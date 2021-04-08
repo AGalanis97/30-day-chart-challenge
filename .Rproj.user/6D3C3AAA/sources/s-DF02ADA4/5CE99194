@@ -1,0 +1,32 @@
+{
+    "id": "5CE99194",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1617910338305.0,
+    "source_on_save": false,
+    "relative_order": 12,
+    "properties": {
+        "expression": "kenya_gbif_readr",
+        "caption": "kenya_gbif_readr",
+        "totalObservations": 17842,
+        "displayedObservations": 17842,
+        "variables": 50,
+        "cacheKey": "4DD169C2",
+        "object": "kenya_gbif_readr",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=kenya_gbif_readr&cache_key=4DD169C2&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 8080056003806104108,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617910338305,
+    "read_only": false,
+    "read_only_alternatives": []
+}
