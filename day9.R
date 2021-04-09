@@ -1,0 +1,16 @@
+if (!require('here')) install.packages('here'): library('here')
+if (!require('ggplot2')) install.packages('ggplot2'): library('ggplot2')
+if (!require('ggpubr')) install.packages('ggpubr'): library('ggpubr')
+if (!require('tidyverse')) install.packages('tidyverse'): library('tidyverse')
+if (!require('ggthemes')) install.packages('ggthemes'): library('ggthemes')
+if (!require('RColorBrewer')) install.packages('RColorBrewer'): library('RColorBrewer')
+
+
+unemployment <- read.csv("unemployment_groups.csv")
+unemployment$Year <- as.factor(unemployment$Year)
+
+p1 <- ggplot(unemployment, aes(fill=Year, y=Percent, x=Age_group, label = Percent)) + 
+  geom_bar(position="dodge", stat="identity") + scale_fill_brewer(palette = 3, type = "div") + scale_y_continuous(limits = c(0,40), labels = c("0%","10%","20%","30%","40%")) + theme(axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), panel.background = element_rect(fill = "#ffefdb"), plot.background = element_rect(fill="#ffefdb"), panel.grid.major.x = element_blank(), panel.grid.major.y = element_line(colour = "#b2a799"), panel.grid.minor = element_blank(), axis.title.x = element_text(size = 13), title = element_text(size = 15))+ geom_text(aes(label = Percent, y = Percent, group = Year), position = position_dodge(width = 0.9),vjust = -0.4) + labs(x="Age group", y="", title ="Unemployment per age group in Greece (Feb 2018 to Feb 2021)", subtitle = "#30DayChartChallenge | @agalanis97", caption = "Data source: oaed.gr")
+ 
+
+ggsave(p1, filename = "day9.pdf")
