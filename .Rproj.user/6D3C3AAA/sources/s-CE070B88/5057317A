@@ -1,0 +1,32 @@
+{
+    "id": "5057317A",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1618086629180.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "expression": "co2005",
+        "caption": "co2005",
+        "totalObservations": "1826",
+        "displayedObservations": "1826",
+        "variables": "25",
+        "cacheKey": "D9AC4D4D",
+        "object": "co2005",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=co2005&cache_key=D9AC4D4D&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2205104492072,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618086629180,
+    "read_only": false,
+    "read_only_alternatives": []
+}

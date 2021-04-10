@@ -1,0 +1,32 @@
+{
+    "id": "0EA8B8B3",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1618087174109.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "expression": "co2000",
+        "caption": "co2000",
+        "totalObservations": "147",
+        "displayedObservations": "147",
+        "variables": "3",
+        "cacheKey": "FB4E2841",
+        "object": "co2000",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=co2000&cache_key=FB4E2841&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1617913544,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618087174109,
+    "read_only": false,
+    "read_only_alternatives": []
+}
